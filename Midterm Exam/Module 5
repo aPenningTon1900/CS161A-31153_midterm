@@ -1,1 +1,65 @@
 
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+
+    string playerName1;
+    string playerName2;
+    string playerName3;
+    int rocksCollected1;
+    int rocksCollected2;
+    int rocksCollected3;
+    int totRocksCollected;
+
+
+    cout << "Welcome to the Rock Collector Championships!" << endl;
+    
+    
+    cout << "Enter player 1 name: ";
+    cin >> playerName1;
+    cout << "How many rocks did " << playerName1 << " collect? ";
+    cin >> rocksCollected1;
+    if ((rocksCollected1 < 0) {
+        cout << "Invalid amount. 0 will be entered." << endl;
+        rocksCollected1 = 0;
+    }
+
+    cout << "Enter player 2 name: ";
+    cin >> playerName2;
+    cout << :How many rocks did " << playerName2 << " collect? ";
+    cin >> rocksCollected2;
+    if (rocksCollected2 < 0) {
+        cout << "Invalid amount. 0 will be entered." << endl;
+        rocksCollected2 = 0;
+    }
+
+    cout << "Enter player 3 name: ";
+    cin >> playerName3;
+    cout << "How many rocks did " << playerName3 << " collect? ";
+    cin >> rocksCollected3;
+    if (rocksCollected3 < 0) {
+        cout << "Invalid amount. 0 will be entered." << endl;
+        rocksCollected3 = 0
+    }
+
+    cout << endl;
+    cout << "  Congratulations Rock Collectors!  " << endl;
+    cout << "====================================" << endl;
+    cout << endl;
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+  }
