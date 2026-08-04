@@ -8,7 +8,7 @@ int numCalories;
 int numCookies;
 int numServing;
 
-cin  >> numServing;
+cin >> numServing;
 numServing = 5 * numCookies;
 
 cout << 
