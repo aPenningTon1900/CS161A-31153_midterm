@@ -22,14 +22,14 @@ int main ()
     cin >> playerName1;
     cout << "How many rocks did " << playerName1 << " collect? ";
     cin >> rocksCollected1;
-    if ((rocksCollected1 < 0) {
+    if (rocksCollected1 < 0) {
         cout << "Invalid amount. 0 will be entered." << endl;
         rocksCollected1 = 0;
     }
 
     cout << "Enter player 2 name: ";
     cin >> playerName2;
-    cout << :How many rocks did " << playerName2 << " collect? ";
+    cout << "How many rocks did " << playerName2 << " collect? ";
     cin >> rocksCollected2;
     if (rocksCollected2 < 0) {
         cout << "Invalid amount. 0 will be entered." << endl;
@@ -42,7 +42,7 @@ int main ()
     cin >> rocksCollected3;
     if (rocksCollected3 < 0) {
         cout << "Invalid amount. 0 will be entered." << endl;
-        rocksCollected3 = 0
+        rocksCollected3 = 0;
     }
 
     cout << endl;
